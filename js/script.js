@@ -5,9 +5,6 @@ var elFormCheck = elForm.querySelector(".check-form");
 var elFormbtn = elForm.querySelector(".form-btn");
 var answerText = document.querySelectorAll(".text");
 
-
-
-
 elForm.addEventListener("submit", function(e) {
     e.preventDefault()
     
@@ -37,11 +34,6 @@ elForm.addEventListener("submit", function(e) {
     else if(checkboxValue == 0){
         answerText[3].textContent = "Iltimos yo'nalishni tanlang"
     }
-
-    console.log(inputValue);
-    console.log(checkboxValue);
-    console.log(maxBall);
-    console.log(selectValue);
 }) 
 
 elFormbtn.addEventListener("click", function restart() {
