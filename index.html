@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>DTM kirish bali</title>
+</head>
+<body>
+    
+
+  <div class="container">
+    <h2 class="text-success text-center fs-1 mt-5 mb-0">Imtihon natijangizni bilib oling</h2>
+
+    <form class="row g-3 my-5 form">
+        <div class="col-md-6">
+          <input type="number" class="form-control form-input" placeholder="Qiymat kiriting" autocomplete="off" aria-label="Qiymatni aniqlash."  required>
+          <div class="text-light mt-2">
+            Iltimos raqam kiriting
+          </div>
+        </div>
+       
+        <div class="col-md-6">
+          <select class="form-select select-form" id="validationServer04" aria-describedby="validationServer04Feedback">
+            <option class="text-secondary form-selected" selected hidden>Tanlang</option>
+            <option class="text-secondary" value="130">Matematika</option>
+            <option class="text-secondary" value="160">Tarix</option>
+            <option class="text-secondary" value="100">Fizika</option>
+            <option class="text-secondary" value="140">Kimiyo</option>
+          </select>
+          <div class="text-light mt-2">
+            Iltimos yo'nalishni tanlang
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check ">
+            <input class="form-check-input check-form" type="checkbox" value="" id="checkbox" aria-describedby="invalidCheck3Feedback" >
+            <label class="form-check-label text-light" for="checkbox">
+              Imtiyozli ligo'tangiz bo'lsa belgilang
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Yuborish</button>
+          <button class="btn btn-success form-btn" type="button">Yana topshirish</button>
+        </div>
+    </form>
+
+    <div class="text-box text-center">
+        <p class="text-success fs-2 mb-0 text"></p>
+        <p class="text-success text-opacity-50 fs-2 mb-0 text"></p>
+        <p class="text-danger fs-2 mb-0 text"></p>
+        <p class="text-warning fs-2 mb-0 text"></p>
+    </div>
+  </div>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
